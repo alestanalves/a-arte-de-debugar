@@ -110,7 +110,7 @@ export default function Home() {
             <Checkbox id="checkbox5" checked={checkedState.checkbox5} onCheckedChange={(value) => setCheckedState(prev => ({ ...prev, checkbox5: Boolean(value) }))} />
             <Label htmlFor="checkbox5">você pesquisou o erro? ChatGPT, Google, StackOverFlow (~15m)</Label>
           </div>
-          <h2 className="text-2xl font-bold mb-2">as coisas pararam de funcionar "do nada"</h2>
+          <h2 className="text-2xl font-bold mb-2">as coisas pararam de funcionar do nada</h2>
           <div className="flex items-center space-x-2 mb-1">
             <Checkbox id="checkbox6" checked={checkedState.checkbox6} onCheckedChange={(value) => setCheckedState(prev => ({ ...prev, checkbox6: Boolean(value) }))} />
             <Label htmlFor="checkbox6">você salvou o arquivo? (~5s)</Label>
